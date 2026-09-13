@@ -60,3 +60,10 @@ In a recent deployment of a full-stack News Aggregator, this architecture was ut
 
 ## 7. Conclusion
 As AI capabilities fracture into highly specialized models, the need for multi-agent coordination will only grow. By returning to fundamental Unix and operating system principles—treating the file system as the ultimate source of truth—developers can build highly resilient, deeply integrated, and entirely free orchestration pipelines. The Markdown Blackboard proves that sometimes, the most cutting-edge AI orchestration tool is simply a text file.
+
+## 8. Industry Context & Further Reading
+This architecture aligns with a broader industry shift toward treating Markdown as the native communication protocol for LLMs. As noted in Reid Marlow's excellent breakdown, [Why ChatGPT answers in Markdown](https://dev.to/reidmarlow/why-chatgpt-answers-in-markdown-31g6):
+
+* **Token Efficiency:** Markdown represents an ~80% token reduction compared to HTML or JSON structures, preserving the AI's context window for actual reasoning rather than parsing syntax.
+* **Training Bias:** Large Language Models are heavily trained on GitHub repositories, READMEs, and Jupyter notebooks, making Markdown their most mathematically natural structural language.
+* **Emerging Standards:** The Markdown Blackboard sits seamlessly alongside other new plain-text agent standards like \llms.txt\ and \AGENTS.md\, pushing the ecosystem toward highly debuggable, human-readable AI orchestration.
